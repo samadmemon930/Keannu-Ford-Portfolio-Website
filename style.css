@@ -106,7 +106,7 @@ body {
   background-repeat: no-repeat;
   height: 55vh;
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .overlay {
