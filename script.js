@@ -3,7 +3,7 @@ const navbar = document.getElementById('navbar');
 
   window.addEventListener('scroll', () => {
     const homeHeight = homeSection.offsetHeight;
-    if (window.scrollY > 50) { // thoda scroll hone par
+    if (window.scrollY > 20) { // thoda scroll hone par
       navbar.classList.add('scrolled');
       navbar.classList.remove('bg-transparent');
     } else {
